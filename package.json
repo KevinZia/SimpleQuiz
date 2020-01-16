@@ -1,0 +1,17 @@
+{
+  "name": "jsquiz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "quizApp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server -a localhost -p 8000 -c-1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "http-server": "^0.12.1",
+    "mocha": "^7.0.0"
+  }
+}

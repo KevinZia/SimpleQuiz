@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+ <head>
+	<title>
+	Quiz for the Buiz
+	</title>
+	<link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+    <div class="grid">
+        <div id="quiz">
+			<h1>Quiz</h1>
+			<div id="time"></div>
+			<p>LifeLines</p>
+			<button class="lifelines" id="getTime" onclick="getTime()"> +10s </button>
+			<button class="lifelines" id="fiftyFifty" onclick="fiftyFifty()"> 50/50 </button>
+            <hr style="margin-bottom: 20px">
+ 
+            <p id="question"></p>
+ 
+            <div class="buttons">
+                <button id="btn0"></button>
+                <button id="btn1"></button>
+                <button id="btn2"></button>
+                <button id="btn3"></button>
+            </div>
+ 
+            <hr style="margin-top: 50px">
+            <footer>
+                <p id="progress">Question x of y</p>
+            </footer>
+        </div>
+    </div>
+ 
+ 
+    <script src="quizApp.js"></script>  
+ </body>
+</html>
